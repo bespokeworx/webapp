@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+    <link rel="stylesheet" type="text/css" href="css/webapp.css">
+    <script src="resources/sap-ui-core.js"
+            id="sap-ui-bootstrap"
+            data-sap-ui-language="en"
+            data-sap-ui-libs="sap.m,sap.ui.commons,sap.ui.table,sap.ui.ux3,sap.ui.core"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-resourceroots='{
+            "sap.ui.demo.wt": "./webapp" }'
+
+
+            >
+
+
+    </script>
+    <script>
+        sap.ui.localResources("webapp");
+        sap.ui.localResources("util");
+        sap.ui.localResources("i18n");
+
+
+        sap.ui.getCore().attachInit(function () {
+            new sap.ui.core.ComponentContainer({
+                name : "sap.ui.demo.wt",
+                height : "100%"
+
+            }).placeAt("content");
+
+        });
+
+
+
+
+//
+//        var oView = sap.ui.view({
+//            viewName: "sap.ui.demo.wt.Main",
+//            type: sap.ui.core.mvc.ViewType.XML
+//        });
+//
+//
+//        oView.placeAt("content");
+    </script>
+</head>
+<body class="sapUiBody" role="application">
+    <div id="content">
+    </div>
+</body>
+</html>

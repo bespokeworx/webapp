@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core" >
+    <Dialog
+            title="{/recipient/name}">
+
+        <beginButton>
+            <Button
+                    text="ok"
+                    press="onCloseDialog"/>
+        </beginButton>
+
+
+    </Dialog>
+</core:FragmentDefinition>
