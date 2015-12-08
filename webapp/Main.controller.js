@@ -78,8 +78,6 @@ sap.ui.controller('sap.ui.demo.wt.Main', {
     onExit: function() {
 
 
-
-
     },
 
 

@@ -10,6 +10,5 @@
                     press="onCloseDialog"/>
         </beginButton>
 
-
     </Dialog>
 </core:FragmentDefinition>
