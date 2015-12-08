@@ -43,7 +43,7 @@ sap.ui.define([
 
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 
-           //this.getRouter().initialize();
+           this.getRouter().initialize();
 
 
 
